@@ -23,7 +23,8 @@ package desafio05OverridePolimorfismo;
 
      public Funcionario(Integer id, String nome) {
          this.id = id;
-         this.Nome = nome;
+         this.Nome = nome; //ou
+         //new Funcionario(id,nome,null)
      }
 
      public Integer getId() {

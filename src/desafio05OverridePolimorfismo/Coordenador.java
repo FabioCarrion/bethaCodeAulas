@@ -1,12 +1,13 @@
 package desafio05OverridePolimorfismo;
 
-public class Coordenador extends Funcionario {
+class Coordenador extends Funcionario {
     public Coordenador(Integer id, String nome, String CPF, Double salarioBruto) {
+
         super(id, nome, CPF, salarioBruto);
     }
 
     public Coordenador(Integer id, String nome, String CPF) {
-        super(id, nome, CPF);
+         super(id, nome, CPF);
     }
 
     public Coordenador(Integer id, String nome) {
@@ -15,7 +16,7 @@ public class Coordenador extends Funcionario {
 
     @Override
     public Double getSalarioBruto(){
-    return super.getSalarioBruto() * 1.20;
+       return super.getSalarioBruto() * 1.20;
     }
 
 }
