@@ -1,4 +1,4 @@
-package classesAbstratas;
+package methodosAbstratos;
 
 public  abstract class Funcionario {
 

@@ -1,8 +1,8 @@
-package classesAbstratas;
+package classesAbstratas1;
 
-public class Gerente extends Funcionario {
+public class Gerente1 extends Funcionario1 {
 
-    public Gerente(String nome, Double bonificacao) {
+    public Gerente1(String nome, Double bonificacao) {
         super(nome, bonificacao);
     }
 
